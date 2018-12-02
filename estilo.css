@@ -1,0 +1,55 @@
+﻿body {
+		background-color: gainsboro
+}
+span,p {
+	margin-left:50px
+}
+#divPoema {
+	background: rgb(242, 242, 242);
+	font-family:Bahnschrift;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    overflow: auto;
+    scrollbar-3dlight-color: transparent;
+    scrollbar-arrow-color:transparent;
+    scrollbar-darkshadow-color: transparent;
+    scrollbar-shadow-color: transparent;
+    scrollbar-face-color: transparent;
+    scrollbar-track-color: transparent;
+ 
+
+}
+
+input[type=button] {
+
+}
+
+table {
+    width: 100%;
+}
+.botoes {
+    text-align:center;
+    width:100%;
+    margin: 40px 0px 0px 0px;
+}
+
+td{
+    text-align: center;
+    border-width:thick;
+    border-style:solid;
+}
+.botao {
+	background-color: rgb(10, 10, 10);
+	color: rgb(242, 242, 242);
+	font-family: 'Agency FB';
+	font-size: 20px;
+	padding: 10px 60px 10px 60px;
+	border-radius: 40px;
+	cursor: default;
+	width: 200px;
+	box-shadow: 6px 6px 4px rgb(206, 206, 206);
+    margin: 0 auto;
+
+}
+	

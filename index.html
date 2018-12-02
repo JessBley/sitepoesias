@@ -1,0 +1,139 @@
+﻿<html>
+<head>
+	<link href="estilo.css" rel="stylesheet" />
+	<script>
+		/*
+function Poema (Título, Texto) {
+		Poema (string <p>Título<p> + string <p>Poema<p>)
+}
+
+function Título (título) {
+		título (<p> "Casa de Verão" <p>)
+}
+function Texto (texto) {
+		texto (<p>Você é minha casa de verão<p>
+			<p>Eu sempre volto<p>
+			<p>E quando volto, está tudo no lugar<p>
+			<p>Porém, tudo diferente<p>
+			<p>Então você me abraça<p>
+			<p>Eu abro suas janelas<p>
+			<p>E respiro na sala o cheiro de descanso<p>
+			<p>É no veraneio desse amor que embalo<p>
+			<p>Me sinto tão recebida<p>
+			<p>Que esqueço que este não é meu lar<p>)
+}
+
+		function Texto1(Título1, Poema1) {
+			var Poema1 = "Você é minha casa de verão\n Eu sempre volto\n E quando volto, está tudo no lugar\n Porém, tudo diferente\n Então você me abraça\n Eu abro suas janelas\n E respiro na sala o cheiro de descanso\n É no veraneio desse amor que embalo\n Me sinto tão recebida\n Que esqueço que este não é meu lar";
+			var Título1 = "Casa de Verão\n"
+			alert(Poema1);
+		}
+		*/
+		var Poema1 = "<p>Você é minha casa de verão</p>"
+			+ "<p>Eu sempre volto</p>"
+			+ "<p>E quando volto, está tudo no lugar</p>"
+			+ "<p>Porém, tudo diferente</p>"
+			+ "<p>Então você me abraça</p>"
+			+ "<p>Eu abro suas janelas</p>"
+			+ "<p>E respiro na sala o cheiro de descanso</p>"
+			+ "<p>É no veraneio desse amor que embalo</p>"
+			+ "<p>Me sinto tão recebida</p>"
+			+ "<p>Que esqueço que este não é meu lar</p>";
+
+		var Titulo1 = "Casa de Verão";
+
+        var Poema2 = "<p>Esse outono, um frio precoce</p > "
+                   + "<p>a estação errada para se estar</p>"
+       +"<p>prefiro as corzinhas de setembro</p>"
+       +"<p>agora parece que tudo é dúvida</p>"
+       +"<p>quando o sol brilha me sinto certa</p>"
+       +"<p>o céu cinza me parece um inquisidor</p>"
+       +"<p>dizendo eu sei, eu mudo, eu posso  </p>"
+       +"<p>você, humana, não. Apenas aceite    </p>"
+       +"<p>suas próprias questões te mudarão  </p>"
+       +"<p>é preciso ser outono e se duvidar  </p>"
+       +"<p>para segurar o verdadeiro frio     </p>"
+       +"<p>ate o calor derreter cada certeza  </p>"
+       +"<p>por favor, apenas seja</p>";
+
+        var Titulo2 = "Frio precoce";
+
+        var Poema3 = "<p>vermelhou o céu dessa parte</p>"
+        +"<p>e a nuvem se perdeu imensa</p>"
+        +"<p>numa moleza de primavera sistêmica</p>"
+        +"<p>o ar frio do dia quente desejou felicidades</p>"
+        +"<p>sem pretensão e sem certeza, só desejo</p>"
+        +"<p>afinal é primavera primeira arte de criar</p>";
+
+        var Titulo3 = "Primavera";
+
+		function mostrarPoema(titulo, poema) {
+
+
+			document.getElementById("spTitulo").innerHTML = titulo;
+			document.getElementById("spPoema").innerHTML = poema;
+		}
+
+		function iniciaiza() {
+			document.getElementById("btn1").innerHTML = Titulo1;
+            document.getElementById("btn2").innerHTML = Titulo2;
+            document.getElementById("btn3").innerHTML = Titulo3;
+
+		}
+
+	</script>
+</head>
+
+<body onload="iniciaiza()">
+    <div>
+        <div id="divPoema">
+
+            <h1><span id="spTitulo"> Escolha um título </span></h1>
+            <p><span id="spPoema"> </span></p>
+           
+
+        </div>
+        <div class="botoes">
+            <span class="botao" id="btn1" onclick="mostrarPoema(Titulo1,Poema1)">
+
+                Titulo1
+            </span>
+
+            <span class="botao" id="btn2" onclick="mostrarPoema(Titulo2,Poema2)">
+                Titulo2
+            </span>
+
+            <span class="botao" id="btn3" onclick="mostrarPoema(Titulo3,Poema3)">
+                Titulo3
+            </span>
+        </div>
+        <!--<div>
+            <table style="margin-top:100px;border-width:2px">
+                <tr>
+                    <th rowspan="2">
+                        Teste teste
+                    </th>
+                    <td rowspan="2">
+                        Teste2 teste2
+                    </td>
+                    <td rowspan="2">
+                        Teste2 teste2
+                    </td>
+                    <td rowspan="2">
+                        Teste2 teste2
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        teste 3
+                    </td>
+                </tr>
+
+            </table>
+        </div>-->
+    </div>
+
+</body>
+</html>
