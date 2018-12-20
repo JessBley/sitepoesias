@@ -1,11 +1,23 @@
 ﻿body {
-		background-color: gainsboro
+    background-color: rgb(232, 181, 206)
+}
+#navGeral {
+
+
+}
+.navGeral {
+    font-family: Bahnschrift;
+    background-color: rgb(117, 36, 75);
+    
+}
+a {
+    color: rgb(38, 38, 38);
 }
 span,p {
 	margin-left:50px
 }
 #divPoema {
-	background: rgb(242, 242, 242);
+	background: rgba(242, 242, 242, 0.61);
 	font-family:Bahnschrift;
     margin: 0 auto;
     height: 400px;
@@ -21,26 +33,14 @@ span,p {
 
 }
 
-input[type=button] {
-
-}
-
-table {
-    width: 100%;
-}
 .botoes {
     text-align:center;
     width:100%;
     margin: 40px 0px 0px 0px;
 }
 
-td{
-    text-align: center;
-    border-width:thick;
-    border-style:solid;
-}
 .botao {
-	background-color: rgb(10, 10, 10);
+	background-color: rgb(38, 38, 38);
 	color: rgb(242, 242, 242);
 	font-family: 'Agency FB';
 	font-size: 20px;
@@ -48,8 +48,28 @@ td{
 	border-radius: 40px;
 	cursor: default;
 	width: 200px;
-	box-shadow: 6px 6px 4px rgb(206, 206, 206);
-    margin: 0 auto;
-
+	margin: 0 auto;   
 }
+
+    .botao:hover {
+        background-color: rgb(117, 36, 75);
+    }
+.botaoradom {
+    background-color: rgb(64, 64, 64);
+    color: rgb(242, 242, 242);
+    font-family: 'Agency FB';
+    font-size: 20px;
+    padding: 10px 60px 10px 60px;
+    border-radius: 40px;
+    cursor: default;
+    width: 200px;
+    margin: 0 auto;
+}
+    .botaoradom:hover {
+        background-color: rgb(137, 42, 88);
+    }
+footer {
+    height: 100px;
+}
+
 	
